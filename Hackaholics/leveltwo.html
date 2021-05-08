@@ -1,0 +1,54 @@
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>GoTrivia</title>
+		<link rel="stylesheet" type="text/css" href="levelone.css" media="screen"/>
+		  <meta charset="utf-8">
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		  <script src="completetasks.js"></script>
+    </head>
+    <body>
+	
+	<div class="header">
+		<h2>Welcome to your second GoTrivia Task!</h2>
+	</div>
+
+	<div class="row">
+	  <div class="leftcolumn">
+		<div class="card">
+		  <h2>Level One</h2>
+		  <h5>Goal: Expand your circle</h5>
+		  
+		  <form>
+			<div class="checkbox">
+			  <label><input type="checkbox" value="" id="c1">Task 1</label>
+			</div>
+			<div class="checkbox">
+			  <label><input type="checkbox" value="" id="c2">Task 2</label>
+			</div>
+			<div class="checkbox disabled">
+			  <label><input type="checkbox" value="" id="c3">Task 3</label>
+			</div>
+		  </form>
+		  <button onclick="taskdone()">DONE</button>
+		  <div id="box">
+			<i class="fas fa-check-circle"></i> 
+			<h1>Level 2 complete</h1>
+			<a href="login.html" class="close" onclick=>Proceed to level 2</a>
+			
+  </div>
+		</div>
+	  </div>
+	  
+	  <div class="rightcolumn">
+		<div class="card">
+		  <h2>Profile</h2>
+		  <div class="fakeimg" style="height:100px;">Image</div>
+		  <p>Student number: ABC002</p>
+		  <p>Interests: Baking, cricket</p>
+		</div>
+	  </div>
+	</div>
+  
+    </body>
+</html>
