@@ -4,14 +4,43 @@ body, html {
   height: 100%;
     padding: 20px;
   
-  background-image: url('bc1.png');
-  opacity: 100%;
+  
 }
+.topic{
+  font-size: 70px;
+  display: block;
+  text-align: centre;
+margin-left: 200px;
+  color: black;
+
+
+}
+body {
+	background: linear-gradient(-45deg, #f3d9d1, #d3a5b6, #abccd8, #9ee9d7, #cca799);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 .header {
   padding: 30px;
   font-size: 40px;
   text-align: center;
-  background: white;
+  background: rgb(241,245,225);
+  background: linear-gradient(90deg, rgba(241,245,225,1) 0%, rgba(184,221,110,1) 7%, rgba(95,208,74,1) 35%, rgba(55,185,171,1) 62%, rgba(117,188,207,1) 73%, rgba(0,212,255,1) 100%);
+  margin-left: 50px;
 }
 * {
   box-sizing: border-box;
@@ -35,9 +64,34 @@ body, html {
 }
 
 .card {
-  background-color: white;
+  background-color: rgb(203, 221, 221);
   padding: 20px;
   margin-top: 20px;
+}
+.card h1{
+  text-align: center;
+  color: blue;
+  font-size: 45px;;
+}
+.card h3{
+  color: #f34f11;
+  text-align: center;
+
+}
+.card p{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.card img{
+  width: 100px;
+  height: 100px;
+  align-items: center;
+}
+
+.row{
+  margin-left: 50px;
 }
 
 
@@ -104,3 +158,14 @@ body, html {
 .checkbox:nth-child(odd) {
   background: #f9f9f9;
 }
+
+.rightcolumn .card{
+  background-color: rgb(11, 168, 116);
+}
+ .card h2{
+   font-size: 30px;
+   text-align: center;
+
+ }
+
+ 

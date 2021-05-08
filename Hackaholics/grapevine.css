@@ -1,9 +1,40 @@
-body, html {
-  height: 100%;
-  float: left;
-  margin-left: 150px;
-  margin-top:25px;
+
+.topic{
+  font-size: 70px;
+  display: block;
+  text-align: centre;
+  
+  color: gold;
+  font-family:cursive;
+
 }
+.header-content {
+  height: 100%;
+  
+  margin-left: 0px;
+  margin-top: 60px;
+}
+
+body {
+	background: linear-gradient(-45deg, #f3d9d1, #d3a5b6, #abccd8, #9ee9d7, #cca799);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
 header {
   align-items: center;
   display: flex;
@@ -113,4 +144,5 @@ header:after {
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
+  margin-top: 50px;
 }
