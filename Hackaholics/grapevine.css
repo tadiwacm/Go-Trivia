@@ -3,10 +3,8 @@
   font-size: 70px;
   display: block;
   text-align: centre;
-  
-  color: gold;
-  font-family:cursive;
-
+margin-left: 200px;
+  color: black;
 }
 .header-content {
   height: 100%;
@@ -145,4 +143,15 @@ header:after {
   text-align: center;
   background-color: #f1f1f1;
   margin-top: 50px;
+}
+
+.container{
+  
+  margin-left: 450px;
+  width: 500px;
+}
+.container h2{
+  font-size: 100px;
+  color: blue;
+  text-align: center;
 }
