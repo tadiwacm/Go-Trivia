@@ -90,3 +90,15 @@ body, html {
   display: inline-block;
   border-radius: 1px solid #000;
 }
+.checkbox{
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+}
+.checkbox:nth-child(odd) {
+  background: #f9f9f9;
+}

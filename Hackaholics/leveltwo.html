@@ -6,11 +6,14 @@
 		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 		  <script src="completetasks.js"></script>
- <!--icons link-->
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- <!--stylesheet sidebar.css link-->
- <link rel="stylesheet" type="text/css" href="sidebar.css" media="screen"/>
-
+		 <!--icons link-->
+		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		 <!--stylesheet sidebar.css link-->
+		 <link rel="stylesheet" type="text/css" href="sidebar.css" media="screen"/>
+		git clone https://github.com/mebjas/html5-qrcode.git
+		<script src="./jqeury.js"></script>
+		<script src="./jsqrcode-combined.js"></script>
+		<script src="./html5-qrcode.js"></script>
     </head>
     <body>
 	
@@ -21,18 +24,30 @@
 	<div class="row">
 	  <div class="leftcolumn">
 		<div class="card">
-		  <h2>Level One</h2>
+		  <h2>Level Two</h2>
 		  <h5>Goal: Expand your circle</h5>
 		  
 		  <form>
 			<div class="checkbox">
-			  <label><input type="checkbox" value="" id="c1">Task 1</label>
+			  <label><input type="checkbox" value="" id="c1">Task 1-Take a picture with a friend. Upload picture.
+			  <form action="/action_page.php">
+			  <input type="file" id="myFile" name="filename">
+			  <input type="submit">
+			</form>
+			  </label>
 			</div>
 			<div class="checkbox">
-			  <label><input type="checkbox" value="" id="c2">Task 2</label>
+			  <label><input type="checkbox" value="" id="c2">Task 2- Go to ICTS. Scan QR code at front door.
+			  <div id="reader"></div></label>
 			</div>
-			<div class="checkbox disabled">
-			  <label><input type="checkbox" value="" id="c3">Task 3</label>
+			<div class="checkbox ">
+			  <label><input type="checkbox" value="" id="c3">Task 3-Take the Jammie to Hiddingh Campus. Get Secret code from driver.</label>
+			</div>
+			<div class="checkbox ">
+			  <label><input type="checkbox" value="" id="c4">Task 4-Find Hiddingh Library</label>
+			</div>
+			<div class="checkbox ">
+			  <label><input type="checkbox" value="" id="c5">Task 5-Give secret code to library assistant. If secret code is correct Library assistant will scan QR code for you.</label>
 			</div>
 		  </form>
 		  <button onclick="taskdone()">DONE</button>
