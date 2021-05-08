@@ -1,5 +1,8 @@
 body, html {
   height: 100%;
+  float: left;
+  margin-left: 150px;
+  margin-top:25px;
 }
 header {
   align-items: center;
@@ -12,6 +15,7 @@ header {
   text-align: center;
   transform-style: preserve-3d;
   perspective: 100px;
+  
 }
 header:before {
   animation: fade-slide-down 2s .5s cubic-bezier(0, 0.5, 0, 1) forwards;
