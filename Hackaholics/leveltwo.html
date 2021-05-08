@@ -6,14 +6,8 @@
 		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 		  <script src="completetasks.js"></script>
-		 <!--icons link-->
-		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		 <!--stylesheet sidebar.css link-->
 		 <link rel="stylesheet" type="text/css" href="sidebar.css" media="screen"/>
-		git clone https://github.com/mebjas/html5-qrcode.git
-		<script src="./jqeury.js"></script>
-		<script src="./jsqrcode-combined.js"></script>
-		<script src="./html5-qrcode.js"></script>
     </head>
     <body>
 	
@@ -29,7 +23,7 @@
 		  
 		  <form>
 			<div class="checkbox">
-			  <label><input type="checkbox" value="" id="c1">Task 1-Take a picture with a friend. Upload picture.
+			  <label><input type="checkbox" value="" id="c1">Task 1-Take a picture with two friends. Upload picture.
 			  <form action="/action_page.php">
 			  <input type="file" id="myFile" name="filename">
 			  <input type="submit">
@@ -38,25 +32,29 @@
 			</div>
 			<div class="checkbox">
 			  <label><input type="checkbox" value="" id="c2">Task 2- Go to ICTS. Scan QR code at front door.
-			  <div id="reader"></div></label>
+			  
+			  <a href="http://www.webqr.com/index.html" class="close">SCAN</a>
+			  </label>
+			  
 			</div>
 			<div class="checkbox ">
 			  <label><input type="checkbox" value="" id="c3">Task 3-Take the Jammie to Hiddingh Campus. Get Secret code from driver.</label>
 			</div>
 			<div class="checkbox ">
-			  <label><input type="checkbox" value="" id="c4">Task 4-Find Hiddingh Library</label>
+			  <label><input type="checkbox" value="" id="c3">Task 4- Make a friend in the Jammie.</label>
 			</div>
 			<div class="checkbox ">
-			  <label><input type="checkbox" value="" id="c5">Task 5-Give secret code to library assistant. If secret code is correct Library assistant will scan QR code for you.</label>
+			  <label><input type="checkbox" value="" id="c4">Task 5-At Hiddingh Campus: Find Hiddingh Library</label>
+			</div>
+			<div class="checkbox ">
+			  <label><input type="checkbox" value="" id="c5">Task 6-Give secret code to library assistant. If secret code is correct Library assistant will scan QR code for you.</label>
 			</div>
 		  </form>
 		  <button onclick="taskdone()">DONE</button>
 		  <div id="box">
-			<i class="fas fa-check-circle"></i> 
-			<h1>Level 2 complete</h1>
-			<a href="login.html" class="close" onclick=>Proceed to level 2</a>
-			
-  </div>
+			<h1>Congrats you've completed all levels</h1>
+			<a href="leaderboard.html" class="close" onclick=>OK</a>
+			</div>
 		</div>
 	  </div>
 	  
