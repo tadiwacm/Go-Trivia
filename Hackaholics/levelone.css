@@ -3,7 +3,9 @@ body, html {
   margin-left: 120px;
   height: 100%;
     padding: 20px;
-  background: #f1f1f1;
+  
+  background-image: url('bc1.png');
+  opacity: 100%;
 }
 .header {
   padding: 30px;
